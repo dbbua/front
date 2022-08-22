@@ -19,6 +19,9 @@ header{
     padding: 20px;
     padding-bottom: 100px;
     margin-bottom: 20px;
+    border: dashed;
+    background-color:rgba(255, 255, 255, 0.6); 
+    z-index: 1;
 }
 .datos{
     font-weight: lighter;
@@ -35,13 +38,14 @@ h2{
 }
 footer{
     font-family: 'Silkscreen', cursive;
+    text-align: center;
     left: 0;
     right: 0;
-    width: 500px;
     margin: 0 auto;
-    width:max-content;
     position: fixed;
-    bottom: 20px;
+    bottom: 1px;
     box-sizing: border-box;
+    background-color: rgba(39, 145, 242, 0.9);
+    z-index: 1;
     
 }
