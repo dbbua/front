@@ -1,0 +1,47 @@
+body{
+    height: 1500px;
+}
+.fondo{
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(39, 162, 245));
+    height:fit-content;
+    background-repeat:no-repeat;
+    background-size: auto;
+    height: 1000px;
+}
+header{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Silkscreen', cursive;
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+.datos{
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.cuerpo{
+    font-family: 'Silkscreen', cursive;
+    position: sticky;
+    top: 20px;
+    margin-top: 150px;
+}
+h2{
+    margin-top: 50px;;
+}
+footer{
+    font-family: 'Silkscreen', cursive;
+    left: 0;
+    right: 0;
+    width: 500px;
+    margin: 0 auto;
+    width:max-content;
+    position: fixed;
+    bottom: 20px;
+    box-sizing: border-box;
+    
+}
